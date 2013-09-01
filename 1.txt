@@ -1,5 +1,5 @@
-my name is ndy,you know  what are you 
-#include<stdi.h>
+#/bash/bin
+include<stdi.h>
 void main()
 {
   int i,j;

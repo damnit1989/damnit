@@ -1,0 +1,22 @@
+regsvr32 jscript.dll后选择“确定”。
+出现提示后，点击确定。
+3、再次输入regsvr32 vbscript.dll选择“确定”。
+再一次出现提示后，确定。
+4、经过以上两次成功提示，说明已成功修复IE组件，清除一下浏览器的Cookies和缓存（打开ie浏览器-上方的工具->Internet选项->删除Cookies，还有删除临时文件。
+
+
+
+
+在网页制作中经常会遇到网页报错的提示，如果有时间的话当然最好是从根本上排除这种错误，但如果时间不允许的话，不妨将以下代码放入页面代码中，打开网页时浏览器再也不会报错了。其方法简单实用，具体插入方法如下：
+将以下代码放入页面代码的<head>与</head>之间即可。
+<!--网页纠错代码开始-->
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Hide
+function killErrors() {
+return true;
+}
+window.onerror = killErrors;
+// -->
+</SCRIPT>
+<!--网页纠错代码结束--> 
+}

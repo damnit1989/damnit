@@ -1,9 +1,0 @@
-my name is ndy,you know  what are you 
-#include<stdi.h>
-void main()
-{
-  int i,j;
-  i = 1;j = 2;
-  sum = i+j;
-  printf("%d",sum);
-}

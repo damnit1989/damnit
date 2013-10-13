@@ -2,6 +2,7 @@
 # 命令
 #author lmm
 #date 2013-10-14
+# i love you very much
 # 程序执行的时间
 #1) time php timeTest.php
 #

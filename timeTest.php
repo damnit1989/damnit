@@ -1,6 +1,7 @@
 <?PHP
 # 命令
-#
+#author lmm
+#date 2013-10-14
 # 程序执行的时间
 #1) time php timeTest.php
 #

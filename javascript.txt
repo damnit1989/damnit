@@ -1,4 +1,5 @@
 #date
+#author lmm
 regsvr32 jscript.dll后选择“确定”。
 出现提示后，点击确定。
 3、再次输入regsvr32 vbscript.dll选择“确定”。

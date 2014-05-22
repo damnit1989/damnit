@@ -1,3 +1,6 @@
+#author lmm
+#date 2013-10-13
+#content  file dump
 #镜像备份远程文件
 
 #!/bin/bash

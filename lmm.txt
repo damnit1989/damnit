@@ -1,5 +1,17 @@
 问题1：在centos服务器上的nginx配置了网站，在服务器上可以访问该网站，但是在本地却访问不到？
 
-	因为在配置域名的时候加了端口，所有需要防火墙开放该端口
 
-	命令：vi /etc/sysconfig/iptables 
+说明
+
+在配置域名的时候加了端口，所有需要配置防火墙开放该端口
+
+
+命令
+
+vi /etc/sysconfig/iptables 
+
+修改完成后重启
+
+/etc/init.d/iptables restart
+或者
+service iptables restart 

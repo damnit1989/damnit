@@ -9,15 +9,10 @@ function checkTime($send_time,$limit_days){
             $days++;
         }
         echo $days.'<br/>';
-        $begin_time = date("Y-m-d",strtotime($begin_time."+1days"));
+	$begin_time = date("Y-m-d",strtotime($begin_time."+1days"));
     }
     if($days <= $limit_days){
         return true;
     }
     return false;
-}
-if(checkTime('2013-10-1',1)){
-    echo 'good';
-}else{
-    echo 'bad';
 }
